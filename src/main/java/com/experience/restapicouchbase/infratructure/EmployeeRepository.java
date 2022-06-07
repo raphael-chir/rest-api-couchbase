@@ -4,4 +4,7 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.experience.restapicouchbase.domain.Employee;
 
-interface EmployeeRepository extends CrudRepository<Employee, String>{}
+interface EmployeeRepository extends CrudRepository<Employee, String>{
+
+    
+}
